@@ -1,0 +1,16 @@
+
+[class*="col-"]{
+background: green;
+height: 75px;
+}
+
+body {
+  margin : 5%;
+ }
+
+@media (max-width: 768px) {
+	[class*="col-"]{
+		height: 40px;
+	}
+
+}
